@@ -1,0 +1,395 @@
+body {
+    overflow-x: hidden;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 100px;
+    color: #000352;
+}
+
+h2 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+h3 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: grey;
+}
+
+h4 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 19px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h5 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #000352;
+    /*font-weight: bold;*/
+}
+
+#process {
+    background: rgba(250,251,252,1);
+    /*padding-bottom: 50px;*/
+    min-height: 100vh;
+}
+
+#process p {
+    font-size: 13px;
+    color: #566369;
+}
+
+#forbidden {
+    background: rgba(250,251,252,1);
+    /*padding-bottom: 50px;*/
+    min-height: 100vh;
+}
+
+#forbidden p {
+    font-size: 13px;
+    color: #566369;
+}
+
+#first {
+    background: rgba(250,251,252,1);
+    padding-bottom: 50px;
+    height: 100vh;
+}
+
+#first p {
+    font-size: 13px;
+    color: #566369;
+}
+
+#second {
+    background: rgba(250,251,252,1);
+    padding-bottom: 50px;
+    min-height: 160vh;
+    height: auto;
+}
+
+#second p {
+    font-size: 13px;
+    color: #566369;
+}
+
+#third {
+    background: rgba(250,251,252,1);
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+#third p {
+    font-size: 13px;
+    color: #566369;
+}
+
+#fourth {
+    background: rgba(250,251,252,1);
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+#fourth p {
+    font-size: 13px;
+    color: #566369;
+}
+
+#address {
+    margin-top: 10px;
+}
+
+#process .btn-div {
+    margin-top: 40px;
+}
+
+.btn-div {
+    margin-top: 90px;
+}
+
+.btn {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.btn-div-item-reg {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-div-understand {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.forbidden p {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#understand-btn {
+    background-color: transparent;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 30vw;
+    height: 70px;
+    border: none;
+    color: #000352;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+#understand-btn :focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#forbidden-btn {
+    background-color: transparent;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 30vw;
+    height: 70px;
+    border: none;
+    color: #000352;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+#forbidden-btn :focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+#first-yes-btn {
+    background-color: transparent;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 30vw;
+    height: 70px;
+    border: none;
+    color: #000352;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+#first-yes-btn :focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#add-btn, #cart-submit-btn, #back-btn, #final-submit-btn {
+    background-color: transparent;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    border: solid;
+    color: #000352;
+    min-width: 100px;
+    width: 8vw;
+    height: 5vh;
+    border-color: rgba(0,3,82,0.5);
+    border-width: 1px;
+    outline: none;
+    box-shadow: none;
+}
+
+#add-btn, #cart-submit-btn, #back-btn, #final-submit-btn :focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.order-components {
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.order-components p {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 5px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.order-components label, span {
+    width: 100%;
+}
+
+.order-components input[type="text"] {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(220,220,220);
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+#forbidden-table {
+    margin-top: 80px;
+    margin-bottom: 130px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    /*width: auto;*/
+    font-weight: normal;
+    border-color: transparent;
+    border-top: none;
+}
+
+#forbidden-table th {
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #7A0401;
+    font-weight: normal;
+}
+
+#second #cart-table {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    width: auto;
+    display: block;
+    font-weight: normal;
+}
+
+#second #cart-table th {
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000352;
+    font-weight: normal;
+}
+
+#third #cart-confirm-table {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+
+#third #cart-confirm-table th {
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000352;
+    font-weight: normal;
+}
+
+#fourth #thankyou-table {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#fourth #thankyou-table th {
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000352;
+    font-weight: normal;
+}
+
+.process {
+    text-align: center;
+}
+
+.process h1 {
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--new-theme-color);
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.process img {
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+    width: 2.5em;
+    text-align: center;
+}
+
+.process img:hover {
+    filter: contrast(0%);
+}
+
+.process h2 {
+    color: var(--new-theme-color);
+    /*font-weight: bold;*/
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.process p {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: rgb(220, 220, 220);
+}
+
+
+/* process animation */
+div.process-wrap div:nth-child(2){
+    opacity: 0;
+    -webkit-animation: fadeIn 0.7s linear 0.3s forwards;
+}
+div.process-wrap div:nth-child(3){
+    opacity: 0;
+    -webkit-animation: fadeIn 0.7s linear 0.9s forwards;
+}
+div.process-wrap div:nth-child(4){
+    opacity: 0;
+    -webkit-animation: fadeIn 0.7s linear 1.5s forwards;
+}
+div.process-wrap div:nth-child(5){
+    opacity: 0;
+    -webkit-animation: fadeIn 0.7s linear 2.1s forwards;
+}
+
+@-webkit-keyframes fadeIn {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+/*process animation done*/
+
+
+@media (min-width: 1000px) {
+    .process-wrap {
+        align-content: center;
+        display: flex;
+    }
+
+    .process {
+        flex: 0.5;
+    }
+}
