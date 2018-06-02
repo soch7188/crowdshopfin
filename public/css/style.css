@@ -455,12 +455,10 @@ body {
 
 /* 푸터 */
 footer {
-    color: #fff;
-    color: var(--text-bright-color);
-    /*background-color: #2B5566;*/
-    /*background-color: var(--new-theme-color-2);*/
-    background-color: rgba(82,145,197, 1);
-
+    height:211px;
+    background-image: url('../images/footer1.png');
+    background-size:cover;
+    
 }
 
 footer .container {
