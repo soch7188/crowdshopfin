@@ -41,6 +41,15 @@
 
                 <img class="arrow" src="images/product info/img/arrow.png">
                 <br>
+
+                <div class="pop_card_container">
+                    <p class="text_pop">판매자 리스트</p>
+                    <img src="images/sell/btn_seller list box.png" class="image_pop_card_first" onclick="tradeClicked()">
+                    <img src="images/sell/btn_seller list box.png" class="image_pop_card">
+                    <img src="images/sell/btn_seller list box.png" class="image_pop_card">
+                </div>
+
+
                 <img class="product_detail_img" src="images/product info/product-detail.png">
 
             </section>
@@ -56,7 +65,7 @@
                 <hr>
 
                 <div class="center">
-
+                    
                     <p class="center" style="font-weight: bold; font-size: 20px">마샬 스톡웰 블루투스 스피커</p>
                     <p class="center" style="font-size:12px; color: #5D697F">구매자 결제 가격 190,000원</p>
                     <p class="center" style="font-size:14px; color: #2980B9; margin-top: 40px">[금액 제안하기]</p>
@@ -68,6 +77,7 @@
                 </div>
 
 
+
             </div>
 
         </div>
@@ -75,20 +85,15 @@
     </main>
 </div>
 </body>
-
-
-
 <br>
 <br>
-
 <img src="images/home/img/footer.png" width="100%">
-
-
 </html>
 
 
 <script>
-    function goToViewItemWithSellers() {
-        location.href = "/view_item_with_sellers";
+    function tradeClicked() {
+        location.href = "/trade_item";
     }
+
 </script>

@@ -138,7 +138,7 @@ hr {
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 5% auto; /* 15% from the top and centered */
     /*margin-left: auto;*/
     /*margin-right: auto;*/
     padding: 20px;
@@ -167,4 +167,52 @@ hr {
     padding-left: auto;
     padding-right: auto;
     text-align: center;
+}
+
+/*.pop_card_container{*/
+    /*margin-left: 120px;*/
+    /*margin-bottom: 50px;*/
+/*}*/
+
+#view_item .text_pop{
+    text-align: left;
+    display: block;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#view_item .text_pop {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: dimgrey;
+    /*font-weight: bold;*/
+}
+
+.image_pop_card_first {
+    margin-left: 0px;
+    width: 369px;
+    height: 415px;
+}
+
+.image_pop_card {
+    margin-left: 24px;
+    width: 369px;
+    height: 415px;
+}
+
+.image_pop_card_first:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+.image_pop_card:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
 }

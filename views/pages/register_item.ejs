@@ -3,67 +3,41 @@
 
 <head>
 <% include ../partials/head.ejs %>
-<link href="/css/home.css" rel="stylesheet" type="text/css">
+<link href="/css/register_item.css" rel="stylesheet" type="text/css">
 <script src="/js/server_base.js"></script>
 <script src="/js/register_item.js"></script>
 </head>
 
-
-<header class="head-hero"></header>
+<header>
     <% include ../partials/header.ejs %>
 </header>
 
-
-
 <body>
 
-    <div class="rcontainer">
-        <h2>
-            공동구매 상품 등록하기
-        </h2>
-
-        <h5>
-            상품 카테고리
-        </h5>
-        <input type="text" class="emptybox0" 
-        placeholder="카테고리를 설정해주세요.">
-        </div>
-
-        <h5>
-            상품 이름
-        </h5>
-        <input type="text" class="emptybox0" 
-        placeholder="상품 이름을 입력해주세요. (0/50)">
-
-        </div>
-
-        <h5>
-            상품 이미지
-        </h5>
-        
-        <input type="text" class="emptybox0" 
-        placeholder="이미지를 업로드해주세요.">
-    
-        </div>
-
-        <h5>
-            상품 설명
-        </h5>
-        <input type="text" class="emptybox0" 
-        placeholder="간단한 상품 설명을 입력해주세요.">
-
-        <h5>
-            공구 마감일
-        </h5>
-        <input type="text" class="emptybox0" 
-        placeholder="공구 마감일을 설정해주세요">
-            
-        </div>
+<section id="register_item">
+    <p class="register_item" style="margin-top: 30px; font-size: 18px;">공동구매 상품 등록하기</p>
+</section>
 
 
+<section id="personal_details">
+    <p>상품 카테고리</p>
+    <input id="category" type="text" name="category" class="form__input" placeholder="    카테고리를 설정해주세." required>
+    <p>상품 이름</p>
+    <input id="name" type="number" name="name" class="form__input" placeholder="    상품 이름을 입력해주세요. (0/50)" required>
+    <p>상품 이미지</p>
+    <input id="image" type="text" name="image" class="form__input" placeholder="    이미지를 업로드해주세요." required>
+    <p>상품 설명</p>
+    <input id="description" type="name" name="description" placeholder="    간단한 상품 설명을 해주세요.">
+    <p>공구 마감일</p>
+    <input id="last_day" type="name" name="last_day" placeholder="    공구 마감일을 설정해주세요.">
 
+<br>
+    <img class="payment_btn" src="images/buyer info/btn_register_item.png"
+         style="width: 214px; height: 57px; text-align: center; margin-left: auto; margin-right: auto; margin-top: 20px "
+         onclick="registerItem()">
 
-    </div>
+</section>
+
 </body>
 
 <br>

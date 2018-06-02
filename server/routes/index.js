@@ -14,6 +14,8 @@ const
     viewItemRoute = require('./view_item'),
     registerItemRoute = require('./register_item'),
     proceedPaymentRoute = require('./proceed_payment'),
+    viewItemWithSellersRoute = require('./view_item_with_sellers'),
+    tradeItemRoute = require('./trade_item'),
 	orderRoute = require('./order');
 
 function init(app) {
@@ -28,6 +30,8 @@ function init(app) {
     app.use('/view_item', viewItemRoute);
     app.use('/register_item', registerItemRoute);
     app.use('/proceed_payment', proceedPaymentRoute);
+    app.use('/view_item_with_sellers', viewItemWithSellersRoute);
+    app.use('/trade_item', tradeItemRoute);
 
 	app.use('/error', function (req, res){
 		res.render('pages/error', {
