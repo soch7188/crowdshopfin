@@ -10,6 +10,7 @@
 
 const
 	rootRoute = require('./root'),
+    buyItemRoute = require('./buy_item'),
 	orderRoute = require('./order');
 
 function init(app) {
@@ -20,6 +21,7 @@ function init(app) {
 
 	app.use('/', rootRoute);
     app.use('/order', orderRoute);
+    app.use('/buy_item', buyItemRoute);
 
 	app.use('/error', function (req, res){
 		res.render('pages/error', {
