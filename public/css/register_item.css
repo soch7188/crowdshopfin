@@ -32,6 +32,7 @@
 
 .emptybox0 {
   height: 64px;
+  border-width: 0;
   font-family: NotoSansKR;
   font-size: 14px;
   font-weight: 300;
@@ -45,6 +46,7 @@
 
 .emptybox1 {
   height: 64px;
+  border-width: 0;
   font-family: NotoSansKR;
   font-size: 12px;
   font-weight: 300;
@@ -57,6 +59,7 @@
 }
 .emptybox2 {
   height: 64px;
+  border-width: 0;
   font-family: NotoSansKR;
   font-size: 12px;
   font-weight: 300;
@@ -69,6 +72,7 @@
 }
 .emptybox3 {
   height: 64px;
+  border-width: 0;
   font-family: NotoSansKR;
   font-size: 12px;
   font-weight: 300;
@@ -81,4 +85,14 @@
 }
 .emptybox4 {
   height: 64px;
+  border-width: 0;
+  font-family: NotoSansKR;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #383c3f;
 }
