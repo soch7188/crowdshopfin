@@ -28,10 +28,10 @@
 
 
             <section id="buy_item">
-                <p class="buy_item_title">[나이키 에어맥스 97]</p>
+                <p class="buy_item_title" style="margin-top: 30px; font-size: 18px; font-weight: bold">[마샬 스톡웰 블루투스 스피커]</p>
                 <p>수량: 1개</p>
-                <p>공구 가격: 10,000원</p>
-                <p>공구 거래 마감일: 2018.06.03 (일)</p>
+                <p>공구 가격: 190,000원</p>
+                <p>공구 거래 마감일: 2018.06.05 (화)</p>
             </section>
 
             <hr width="400px">
@@ -44,24 +44,29 @@
                 <p>배송지 등록</p>
                 <input id="address" type="text" name="address" class="form__input" placeholder="    주소를 등록해주세요." required>
                 <p>환불 계좌 정보</p>
+                <input id="bank_name" type="name" name="bank_name" placeholder="    농협">
 
-                <div class="dropdown">
-                    <button onclick="showBanks()" class="dropbtn">Dropdown</button>
-                    <div id="bankDropDown" class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
                 <br>
-
-                <input id="bank_name" type="name" name="bank_name" placeholder="    은행선택"><br>
                 <input id="account" type="number" name="name" class="form__input" placeholder="    계좌 입력" required>
+                <br>
+                <img class="payment_btn" src="images/buy/btn/buy.png"
+                     style="width: 214px; height: 57px; text-align: center; margin-left: auto; margin-right: auto; margin-top: 20px "
+                    onclick="proceedToPayment()">
+
             </section>
+            
 
         </section>
 
 
     </main>
 </div>
-</body></html>
+</body>
+
+<br>
+<br>
+
+
+<img src="images/home/img/footer.png" width="100%">
+
+</html>

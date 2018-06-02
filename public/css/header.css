@@ -242,6 +242,10 @@ header {
     width: 20%;
 }
 
+.image_logo:hover{
+    cursor: pointer;
+}
+
 .image_profile {
     display: block;
     height: 50px;

@@ -1,0 +1,27 @@
+body {
+    overflow-x: hidden;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ok_btn:hover {
+    cursor: pointer;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+.payment_info {
+    display: block;
+    margin: auto;
+    /*width: 50%;*/
+    width: 221px;
+    height: 88px;
+}

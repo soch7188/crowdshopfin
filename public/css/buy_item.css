@@ -3,93 +3,6 @@ body {
     font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 36px;
-    margin-top: 100px;
-    color: #000352;
-}
-
-h2 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 18px;
-    color: black;
-}
-
-h3 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    color: grey;
-}
-
-h4 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 19px;
-    color: black;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-h5 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 15px;
-    color: #000352;
-    /*font-weight: bold;*/
-}
-
-#process {
-    background: rgba(250,251,252,1);
-    /*padding-bottom: 50px;*/
-    min-height: 100vh;
-}
-
-#process p {
-    font-size: 13px;
-    color: #566369;
-}
-
-#forbidden {
-    background: rgba(250,251,252,1);
-    /*padding-bottom: 50px;*/
-    min-height: 100vh;
-}
-
-#forbidden p {
-    font-size: 13px;
-    color: #566369;
-}
-
-#first {
-    background: rgba(250,251,252,1);
-    padding-bottom: 50px;
-    height: 100vh;
-}
-
-#first p {
-    font-size: 13px;
-    color: #566369;
-}
-
-#second {
-    background: rgba(250,251,252,1);
-    padding-bottom: 50px;
-    min-height: 160vh;
-    height: auto;
-}
-
-#second p {
-    font-size: 13px;
-    color: #566369;
-}
-
 #buy_item {
     text-align: center;
 }
@@ -129,6 +42,10 @@ hr {
     height: 60px;
     width: 400px;
     margin-top: 10px;
+}
+
+#personal_details .payment_btn:hover {
+    cursor: pointer;
 }
 
 
@@ -176,4 +93,5 @@ hr {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
 

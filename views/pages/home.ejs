@@ -19,7 +19,7 @@
 
 <div class="pop_card_container">
     <a class="text_pop">인기 공구 상품</a>
-    <img src="images/home/btn/popular card1.png" class="image_pop_card_first">
+    <img src="images/home/btn/popular card1.png" class="image_pop_card_first" onclick="goToBuyPage()">
     <img src="images/home/btn/popular card02.png" class="image_pop_card">
     <img src="images/home/btn/popular card3.png" class="image_pop_card">
     <img src="images/home/btn/popular card4.jpeg" class="image_pop_card">
@@ -41,3 +41,10 @@
 
 </body>
 </html>
+
+
+<script>
+    function goToBuyPage() {
+        location.href = "/buy_item";
+    }
+</script>

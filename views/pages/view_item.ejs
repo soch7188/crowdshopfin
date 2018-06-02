@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<% include ../partials/head.ejs %>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--Bootstrap Files -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"></script>
+    <!-- Icons and fonts -->
+    <script src="https://use.fontawesome.com/39214e8527.js"></script><link href="https://use.fontawesome.com/39214e8527.css" media="all" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,500,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="/css/view_item.css" rel="stylesheet" type="text/css">
+    <script src="/js/server_base.js"></script>
+    <script src="/js/view_item.js"></script>
+
+</head>
+
+<body class="fadeIn animate index nohero" id="page-top">
+<div class="fadeIn animated" id="myDiv" style="display: block;">
+    <main>
+
+        <section id="process">
+            <header>
+                <% include ../partials/header.ejs %>
+            </header>
+
+
+            <section id="view_item">
+
+                <div class="bg"><p class="POPULAR">POPULAR</p></div>
+                <p class="TITLE">마샬 스톡웰 블루투스 스피커</p>
+
+                <div class="img_container">
+                    <img class="product-img" src="images/product info/product_info.jpeg">
+                    <img id="buy_btn" class="buy_btn" src="images/product info/btn/payment.png" onclick="buyBtnClicked()">
+                    <img id="sell_btn" class="sell_btn" src="images/product info/btn/sell.png" onclick="sellBtnClicked()">
+                </div>
+
+
+                <img class="arrow" src="images/product info/img/arrow.png">
+                <br>
+                <img class="product_detail_img" src="images/product info/product-detail.png">
+
+            </section>
+        </section>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>판매하기</p>
+                <hr>
+
+                <div class="center">
+                    
+                    <p class="center" style="font-weight: bold; font-size: 20px">마샬 스톡웰 블루투스 스피커</p>
+                    <p class="center" style="font-size:12px; color: #5D697F">구매자 결제 가격 190,000원</p>
+                    <p class="center" style="font-size:14px; color: #2980B9; margin-top: 40px">[금액 제안하기]</p>
+                    <input class="center" style="width: 300px; border:0" placeholder="190,000원 이하 금액을 제안해주세요."></input>
+                    <hr style="width: 300px">
+                    <br>
+
+                    <button type="button" class="btn btn-default center">판매 등록</button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </main>
+</div>
+</body>
+
+
+
+<br>
+<br>
+
+<img src="images/home/img/footer.png" width="100%">
+
+
+</html>

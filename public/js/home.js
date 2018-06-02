@@ -30,3 +30,4 @@ function clickedGoOrder() {
         window.location.href = '/order'
     }
 }
+

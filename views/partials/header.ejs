@@ -8,23 +8,11 @@
         <ul>
             <li><a href="/items_list">둘러보기</a></li>
             <li><a href="/register_item">상품 등록하기</a></li>
-
-            <!--<li><a id="notification" href="/order">ORDER</a></li>-->
-            <!--<li><a id="statusOption" href="/status">STATUS</a></li>-->
-            <!--<li class="listLogin"><a id="loginOption" href="/login" onclick="clickedListLogin()">LOGIN</a></li>-->
-            <!--<li><a id="adminOption" href="/admin">ADMIN</a></li>-->
-
         </ul>
     </nav>
 
-    <!--<div class="container-small">-->
-        <!--<a href="/" class="headA" >CrowdShopfin</a>-->
-        <!--<button type="button" class="headC">-->
-            <!--<span class="fa fa-bars" title="MENU"></span>-->
-        <!--</button>-->
-    <!--</div>-->
 
-    <img src="images/home/logo.png" alt="crowdshopfin" class="image_logo">
+    <img src="images/home/logo.png" alt="crowdshopfin" class="image_logo" onclick="goHome()">
     <!--<img src="images/Team_pictures/nyb.png" alt="Avatar" class="image">-->
 
     <div class="vl"></div>
@@ -46,3 +34,9 @@
         </div>
     </div>
 </div>
+
+<script>
+    function goHome() {
+        location.href = "/";
+    }
+</script>

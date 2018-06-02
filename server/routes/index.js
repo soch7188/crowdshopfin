@@ -11,6 +11,9 @@
 const
 	rootRoute = require('./root'),
     buyItemRoute = require('./buy_item'),
+    viewItemRoute = require('./view_item'),
+    registerItemRoute = require('./register_item'),
+    proceedPaymentRoute = require('./proceed_payment'),
 	orderRoute = require('./order');
 
 function init(app) {
@@ -22,6 +25,9 @@ function init(app) {
 	app.use('/', rootRoute);
     app.use('/order', orderRoute);
     app.use('/buy_item', buyItemRoute);
+    app.use('/view_item', viewItemRoute);
+    app.use('/register_item', registerItemRoute);
+    app.use('/proceed_payment', proceedPaymentRoute);
 
 	app.use('/error', function (req, res){
 		res.render('pages/error', {
