@@ -3,17 +3,11 @@
 <script type="text/javascript" src="/js/navigation.js"></script>
 <script type="text/javascript" src="/js/logout.js"></script>
 <div class="container">
-    <div class="container-small">
-        <a href="/" class="headA" >BUNDLEPORT</a>
-        <button type="button" class="headC">
-            <span class="fa fa-bars" title="MENU"></span>
-        </button>
-    </div>
+
     <nav class="headB">
         <ul>
             <li><a href="/items_list">둘러보기</a></li>
             <li><a href="/register_item">상품 등록하기</a></li>
-            <li><a href="/search">Search</a></li>
 
             <!--<li><a id="notification" href="/order">ORDER</a></li>-->
             <!--<li><a id="statusOption" href="/status">STATUS</a></li>-->
@@ -22,9 +16,32 @@
 
         </ul>
     </nav>
+
+    <!--<div class="container-small">-->
+        <!--<a href="/" class="headA" >CrowdShopfin</a>-->
+        <!--<button type="button" class="headC">-->
+            <!--<span class="fa fa-bars" title="MENU"></span>-->
+        <!--</button>-->
+    <!--</div>-->
+
+    <img src="images/home/logo.png" alt="crowdshopfin" class="image_logo">
+    <!--<img src="images/Team_pictures/nyb.png" alt="Avatar" class="image">-->
+
+    <div class="vl"></div>
+    <img src="images/home/icon/SEARCH.png" class="image_search">
+    <div class="vl"></div>
+
+
+    <!--<a onclick="clickedSearchIcon()"><img src="images/home/icon/SEARCH.png" class="image_profile" onclick="clickedLogout()"></a>-->
+    <!--<a onclick="clickedAlarmIcon()"><img src="images/home/img/alarm.png" class="image_profile" onclick="clickedLogout()"></a>-->
+    <img src="images/home/img/alarm.png" class="image_alarm">
+
     <div class="dropdown">
-        <button onclick="clickedPersonIcon()" class="dropbtn fas fa-user"></button>
+
+        <a onclick="clickedPersonIcon()"><img src="images/home/img/profile.png" class="image_profile" onclick="clickedLogout()"></a>
+
         <div id="myDropdown" class="dropdown-content">
+            <!--<img src="images/home/profile.png" onclick="clickedLogout()">-->
             <a onclick="clickedLogout()" class="fas fa-sign-out-alt"> Logout</a>
         </div>
     </div>
