@@ -1,0 +1,84 @@
+
+.rcontainer {
+  margin-left:40%;
+  margin-right:40%;
+}
+
+.h2 {
+  height: 56px;
+  margin-top: 20px;
+  font-family: NotoSansKR;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #383c3f;
+}
+
+.h5 {
+  font-family: NotoSansKR;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #383c3f;
+}
+
+.emptybox0 {
+  height: 64px;
+  font-family: NotoSansKR;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #383c3f;
+}
+
+.emptybox1 {
+  height: 64px;
+  font-family: NotoSansKR;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #383c3f;
+}
+.emptybox2 {
+  height: 64px;
+  font-family: NotoSansKR;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #383c3f;
+}
+.emptybox3 {
+  height: 64px;
+  font-family: NotoSansKR;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #383c3f;
+}
+.emptybox4 {
+  height: 64px;
+}
