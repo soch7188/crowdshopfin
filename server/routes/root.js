@@ -8,7 +8,6 @@ let router = express.Router();
 
 function getHomePage(req, res) {
     res.render('pages/home.ejs', {
-        // login_success:false,
         url: config.api_url
     });
 }

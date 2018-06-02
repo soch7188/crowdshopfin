@@ -1,11 +1,8 @@
 /**
  * Routes index
  *
- * @date 2018-01-07
+ * @date 2018-06-02
  * @author Ziwon
- * @updated 2018-01-13
- * @updated_by Ziwon
- * @update_log
  *
  */
 
