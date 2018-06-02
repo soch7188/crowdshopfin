@@ -69,13 +69,14 @@ hr {
     position:relative;
 }
 
-.product-img {
-    position:absolute;
-    width: 832px;
-    height: 368px;
-    top: 0;
-    left: 0;
-}
+/*.product-img {*/
+    /*position:absolute;*/
+    /*width: 832px;*/
+    /*height: 368px;*/
+    /*top: 0;*/
+    /*left: 0;*/
+/*}*/
+
 .buy_btn {
     position:absolute;
     width: 144px;
@@ -103,7 +104,15 @@ hr {
     top: auto;
     left: 0px;
     width: 800px;
-    height: 500px;
+    height: 450px;
+}
+
+.product-img-final {
+    position: relative;
+    top: auto;
+    left: 0px;
+    width: 800px;
+    height: 360px;
 }
 
 .arrow {
